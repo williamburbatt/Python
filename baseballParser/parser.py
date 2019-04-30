@@ -1,8 +1,8 @@
 import csv
 import json
 
-csvfile = open('C:\\Users\\willi\\PycharmProjects\\baseballParser\\venv\\draftResults.csv', 'r')
-jsonfile = open('C:\\Users\\willi\\PycharmProjects\\baseballParser\\venv\\draftResultsJSON.json', 'w')
+csvfile = open('draftResults.csv', 'r')
+jsonfile = open('draftResultsJSON.json', 'w')
 
 fieldnames = ("Pick", "Position", "Player", "Team", "Bid", "Fantasy Team")
 reader = csv.DictReader(csvfile, fieldnames)
